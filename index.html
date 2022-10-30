@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-with, initial-scale=1.0" />
+    <title>Dream Success Academy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" herf="https://fonts.gsatatic.com" />
+    <link
+      herf="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">GRADE</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>
+          DREAM SUCCESS ACADEMY<br />The Best school In ADDIS ABABA ETHIOPIA
+        </h1>
+        <p>
+          The developer is Beneyas Tadu <br />learning in dream success academy
+          grade 10A
+        </p>
+        <a href="" class="hero-btn">Get In To Find More</a>
+      </div>
+    </section>
+    <!----- Course ----->
+    <section class="course">
+      <h1>WE STRIVE FOR SUCCESS</h1>
+      <p>
+        we are teaching now from <br />
+        KG-1 to grade 12
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>International School</h3>
+          <p>
+            which teaches all subjuects with english.<br />
+            Exept National language<br />
+            In ELementary kg up to grade 8 <br />
+            and high school grade 9 to 12
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- campus -->
+    <section class="SCHOOL">
+      <h1>our international school</h1>
+      <p>We are striving to get success</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/photo_2022-09-07_10-10-03.jpg">
+      </div>
+    </section>
+    <!------JavaScript for Toggle Menu------>
+    <script>
+      var navLinks = document.getElementByID("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
